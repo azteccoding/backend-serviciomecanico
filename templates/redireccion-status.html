@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Status de reparación</title>
+  </head>
+  <body>
+    <main>
+      <div class="">
+        <a href="/crear-estado-reparacion">Crear nuevo status de reparación</a>
+      </div>
+      <div class="">
+        <a href="javascript:router()">Modificar status existente de reparación</a>
+      </div>
+      <div class="">
+        <a href="/registrar/nuevocliente">Registrar nuevo cliente</a>
+      </div>
+      <div class="">
+        <a href="/busqueda/cliente">Buscar cliente</a>
+      </div>
+
+    </main>
+    <script type="text/javascript">
+      function router() {
+        var plates = prompt("Placas del auto: ")
+        //console.log(plates)
+        if (plates && plates.length > 5) window.location = "/actualizar-estado-reparacion/" + plates
+      }
+    </script>
+  </body>
+</html>

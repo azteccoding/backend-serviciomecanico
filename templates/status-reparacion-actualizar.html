@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>Ingresa status de Orden de Servicio</h1>
+  <form action="/actualizar-estado-reparacion/{{orden_servicio["car"]["plates"]}}" method="post">
+    <label for="cliente">Cliente</label>
+    <input type="text" name="cliente" value="{{orden_servicio["client"]["name"]}}">
+    <label for="trabajo">Trabajo</label>
+    <input type="text" name="trabajo" value="{{orden_servicio["client"]["name"]}}">
+    <label for="status-p">Status Porcentaje</label>
+    <input type="text" name="status-p" value="{{orden_servicio["status"]["percentage"]}}">
+    <label for="carro">Auto Modelo</label>
+    <input type="text" name="carro" value="{{orden_servicio["car"]["model"]}}">
+    <label for="placas">Auto Placas</label>
+    <input type="text" name="placas" value="{{orden_servicio["car"]["plates"]}}" disabled>
+    <label for="status-d">Status Descripcion</label>
+    <input type="text" name="status-d" value="{{orden_servicio["status"]["description"]}}">
+    <input type="submit" name="" value="Actualizar">
+  </form>
+  <div class="">
+    <a href="/">Volver</a>
+  </div>
+</body>
+
+</html>

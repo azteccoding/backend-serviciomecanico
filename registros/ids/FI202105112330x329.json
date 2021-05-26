@@ -1,0 +1,15 @@
+{
+"controlHora":"23:30",
+"controlFecha":"2021/05/11",
+"id_registro":"FI202105112330x329",
+"cliente":{"nombre": "Juan", "telefono": "5512345678", "direccion": "Calle 23", "whatsApp": false},
+"datosAuto":{"tipo": "Jetta", "marca": "VW", "modelo": "2020", "placas": "QWE123", "kilometraje": "34000"},
+"interiorAuto":{"tablero": true, "aire": true, "plumas": true, "radio": true, "bocinas": true, "encendedor": true, "retrovisor": true, "ceniceros": true, "cinturones": true, "botones": true, "manijas": true, "tapetes": true, "vestiduras": true},
+"exteriorAuto":{"luces": true, "antena": true, "espejos": true, "cristales": true, "llantas": true, "tapones": true, "molduras": true, "gasolina": true, "parrilla": true, "claxon": false},
+"gasolinaPorCentaje":12.5,
+"accesorios":{"gato": true, "maneral": true, "llave-ruedas": false, "estuche": false, "triangulos": false, "refaccion": false, "extintor": false},
+"componentes":{"claxon": false, "tapon-aceite": true, "tapon-radiador": false, "varilla-aceite": false, "filtro": false, "bateria": false},
+"comentarios":"Luces fallan",
+"fecha":"2021/05/11",
+"hora":"23:31"
+}

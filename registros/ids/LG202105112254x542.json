@@ -1,0 +1,15 @@
+{
+"controlHora":"22:54",
+"controlFecha":"2021/05/11",
+"id_registro":"LG202105112254x542",
+"cliente":{"nombre": "Jorge Montes", "telefono": "55012345678", "direccion": "Avenida Tulipanes, Puerto Akbar, Saguntum, RIC", "whatsApp": true},
+"datosAuto":{"tipo": "Native", "marca": "Saguntum", "modelo": "2060", "placas": "ALV691", "kilometraje": "123456"},
+"interiorAuto":{"tablero": true, "aire": true, "plumas": true, "radio": true, "bocinas": true, "encendedor": true, "retrovisor": true, "ceniceros": true, "cinturones": true, "botones": true, "manijas": true, "tapetes": true, "vestiduras": true},
+"exteriorAuto":{"luces": true, "antena": true, "espejos": true, "cristales": true, "llantas": true, "tapones": true, "molduras": true, "gasolina": false, "parrilla": true, "claxon": false},
+"gasolinaPorCentaje":25,
+"accesorios":{"gato": true, "maneral": false, "llave-ruedas": false, "estuche": false, "triangulos": false, "refaccion": true, "extintor": true},
+"componentes":{"claxon": true, "tapon-aceite": false, "tapon-radiador": false, "varilla-aceite": false, "filtro": true, "bateria": true},
+"comentarios":"El mejor auto del mundo",
+"fecha":"2021/05/11",
+"hora":"22:56"
+}

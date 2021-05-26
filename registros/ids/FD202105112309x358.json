@@ -1,0 +1,15 @@
+{
+"controlHora":"23:09",
+"controlFecha":"2021/05/11",
+"id_registro":"FD202105112309x358",
+"cliente":{"nombre": "Jesus", "telefono": "23456789", "direccion": "Avenida Mexico", "whatsApp": true},
+"datosAuto":{"tipo": "Corsa", "marca": "Nissan", "modelo": "2020", "placas": "ALV890", "kilometraje": "12000"},
+"interiorAuto":{"tablero": true, "aire": true, "plumas": true, "radio": true, "bocinas": true, "encendedor": true, "retrovisor": true, "ceniceros": true, "cinturones": true, "botones": true, "manijas": true, "tapetes": true, "vestiduras": true},
+"exteriorAuto":{"luces": true, "antena": true, "espejos": true, "cristales": true, "llantas": true, "tapones": true, "molduras": true, "gasolina": true, "parrilla": true, "claxon": true},
+"gasolinaPorCentaje":87.5,
+"accesorios":{"gato": false, "maneral": false, "llave-ruedas": false, "estuche": true, "triangulos": false, "refaccion": true, "extintor": false},
+"componentes":{"claxon": true, "tapon-aceite": true, "tapon-radiador": false, "varilla-aceite": false, "filtro": false, "bateria": false},
+"comentarios":"",
+"fecha":"2021/05/11",
+"hora":"23:10"
+}
